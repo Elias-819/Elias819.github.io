@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://ldz_elias@outlook.com
+  icon: fas fa-envelope
+- title: Instagram
+  url: https://www.instagram.com/dz_elias/
+  icon: fab fa-instagram
+- title: GitHub
+  url: https://github.com/Elias-819
+  icon: fab fa-github

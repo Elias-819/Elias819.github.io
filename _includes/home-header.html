@@ -1,0 +1,35 @@
+<!-- <div class="home-header pure-menu pure-menu-horizontal">
+  <div class="home-header-bar">
+    {% if site.data.archive %}
+    <ul class="home-header-menu pure-menu-list">
+      {% for item in site.data.archive %}
+        <li class="pure-menu-item">
+          <a href="{{ item.url | relative_url }}" class="pure-menu-link {% if page.url == item.url %}current-item{% endif %}"">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div> -->
+
+
+<div class="home-header pure-menu pure-menu-horizontal">
+  <div class="home-header-bar">
+    <ul class="home-header-menu pure-menu-list">
+      <!-- About Me -->
+      <li class="pure-menu-item">
+        <a href="#about-me" class="pure-menu-link">About Me</a>
+      </li>
+      <!-- Blog Posts -->
+      {% for post in site.posts %}
+      <li class="pure-menu-item">
+        <a href="{{ post.url | relative_url }}" class="pure-menu-link {% if page.url == post.url %}current-item{% endif %}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      <!-- Skills -->
+      <li class="pure-menu-item">
+        <a href="#skills" class="pure-menu-link">Skills</a>
+      </li>
+    </ul>
+  </div>
+</div>
