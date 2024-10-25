@@ -9,6 +9,6 @@ title: MSc Projects
     <p>Assemble and program the robot so that it can explore the environment and grab the specified object to the specified location. The current progress is to use a handle to control the robot.</p>
   </div>
   <div style="flex: 1;">
-    <img src="/mewithros.jpeg" alt="Project Image" style="max-width: 100%; height: auto;">
+    <img src="E:\myproject\my_jekyll_site\Elias819.github.io\mewithros.jpeg" alt="Project Image" style="max-width: 100%; height: auto;">
   </div>
 </div>
