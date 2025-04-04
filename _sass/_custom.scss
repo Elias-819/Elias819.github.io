@@ -1,0 +1,56 @@
+.content {
+    padding: 20px;
+  }
+  
+  // 调整头像样式
+  .avatar-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .avatar-image:hover {
+    transform: scale(1.05);
+  }
+  
+
+.pure-menu-children {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    z-index: 999;
+    padding: 0;
+  }
+  
+  .pure-menu-has-children:hover .pure-menu-children {
+    display: block;
+  }
+
+  /* 设置下拉菜单背景为浅灰色，文字左对齐 */
+.top-nav .pure-menu-children {
+    background-color: #f2f2f2;  /* 浅灰背景 */
+    text-align: left;
+    padding: 8px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 160px;
+  }
+  
+  /* 菜单项样式优化 */
+  .top-nav .pure-menu-children .pure-menu-link {
+    display: block;
+    padding: 6px 16px;
+    color: #333;
+    white-space: nowrap;
+  }
+  
+  .top-nav .pure-menu-children .pure-menu-link:hover {
+    background-color: #e0e0e0;  /* 鼠标悬停再深一点的灰色 */
+  }
+  

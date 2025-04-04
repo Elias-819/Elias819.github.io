@@ -1,3 +1,14 @@
+<!--
+左侧栏（侧边栏） 的展示，也就是你页面上那个：
+
+带头像的区域
+
+网站标题和副标题（描述）
+
+可选的导航列表（来自 navigation.yml）
+
+社交链接图标（来自 social.yml）
+-->
 <header class="masthead">
   {% if site.avatar -%}
     <div class="avatar">
@@ -12,9 +23,19 @@
   <div class="masthead-title">
     <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
   </div>
+
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>
   </div>
+  
+  <div class="download-cv" style="margin-top: 15px;">
+    <a href="/CV_DongzeLi.pdf"
+       class="button"
+       style="display: inline-block; padding: 10px 15px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none;">
+      📄 Download CV
+    </a>
+  </div>
+
   {%- if site.data.navigation -%}
   <nav class="navigation">
     <ul class="navigation-list">

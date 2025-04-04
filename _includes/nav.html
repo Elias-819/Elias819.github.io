@@ -1,0 +1,44 @@
+<!-- 通用导航栏 -->
+<nav class="top-nav pure-menu pure-menu-horizontal" style="
+  background: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+">
+  <ul class="pure-menu-list" style="
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  ">
+    <li class="pure-menu-item">
+      <a href="/" class="pure-menu-link" style="color: #333;">🏠 Home</a>
+    </li>
+
+    <!-- Projects (Dropdown with anchors) -->
+    <li class="pure-menu-item pure-menu-has-children">
+      <a href="/projects/" class="pure-menu-link" style="color: #333;">📁 Projects</a>
+      <ul class="pure-menu-children" style="list-style: none; padding-left: 16px;">
+        <li class="pure-menu-item">
+          <a href="/projects/#msc" class="pure-menu-link" style="color: #333;">🎓 MSc Projects</a>
+        </li>
+        <li class="pure-menu-item">
+          <a href="/projects/#bsc" class="pure-menu-link" style="color: #333;">🎓 BSc Projects</a>
+        </li>
+      </ul>
+    </li>
+
+
+    <!-- Skills -->
+    <li class="pure-menu-item">
+      <a href="/skills/" class="pure-menu-link" style="color: #333;">🧠 Skills</a>
+    </li>
+
+    <!-- Contact -->
+    <li class="pure-menu-item">
+      <a href="/contact/" class="pure-menu-link" style="color: #333;">📨 Contact</a>
+    </li>
+  </ul>
+</nav>

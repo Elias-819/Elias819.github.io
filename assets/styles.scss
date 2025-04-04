@@ -31,6 +31,8 @@
 @import "toc";
 @import "alignment";
 
+@import "custom";
+
 @import "syntax-light";
 @media (prefers-color-scheme: dark) {
   @import "syntax-dark";
@@ -52,3 +54,6 @@
     margin-left: var(--spacer);
   }
 }
+
+
+

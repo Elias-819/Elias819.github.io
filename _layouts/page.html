@@ -1,8 +1,22 @@
+<!--“通用页面模板”，适合用来渲染普通的 .md 页面-->
 ---
 layout: default
 ---
 
-<article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+<article class="page" style="padding: 2rem;">
+  <header class="page-header" style="margin-bottom: 2rem;">
+    <h1 class="page-title" style="font-size: 2rem; margin-bottom: 0.5rem;">
+      {{ page.title }}
+    </h1>
+    {% if page.description %}
+    <p class="page-description" style="font-size: 1rem; color: #666;">
+      {{ page.description }}
+    </p>
+    {% endif %}
+  </header>
+
+  <section class="page-content">
+    {{ content }}
+  </section>
 </article>
+

@@ -1,7 +1,11 @@
+<!--这里是正文渲染的位置，你所有 markdown 内容最终都会出现在这里-->
 <main>
+  {% include nav.html %}
   {{ content }}
 </main>
 
+<!--页脚区域，自动显示年份和作者，并注明网站是用 Jekyll + 模板构建的-->
+<!--
 <footer class="footer">
   {%- assign year_from = site.posts[-1].date | date: '%Y' -%}
   {%- assign year_to   = site.time | date: '%Y' -%}
@@ -15,3 +19,4 @@
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
   </small>
 </footer>
+-->

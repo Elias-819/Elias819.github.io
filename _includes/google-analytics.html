@@ -1,9 +1,20 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<!--
+启用 Google Analytics（谷歌分析）功能
+让你可以收集和查看网站访问数据，比如：
+
+有多少人访问了你的网站
+
+他们来自哪里、用什么设备
+
+访问了哪些页面、停留了多久
+-->
+
+<!-- 我的Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WWLHSY8W3L"></script>
 <script>
-  window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ site.google_analytics }}');
+  gtag('config', 'G-WWLHSY8W3L');
 </script>
