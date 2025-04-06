@@ -45,7 +45,7 @@ permalink: /projects/
   <!-- 右边视频，改为固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="/videos/Uav.mp4" type="video/mp4">
+      <source src="{{ '/videos/Uav.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
