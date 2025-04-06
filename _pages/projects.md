@@ -22,7 +22,7 @@ permalink: /projects/
   <!-- 右边视频，改为固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="/videos/block_detect.mp4" type="video/mp4">
+      <source src="{{ '/videos/block_detect.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
@@ -68,7 +68,7 @@ permalink: /projects/
   <!-- 右边视频，改为固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="/videos/A_star.mp4" type="video/mp4">
+      <source src="{{ '/videos/A_star.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
@@ -91,7 +91,7 @@ permalink: /projects/
   <!-- 右边视频或模型展示，固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="/videos/robot_plate.mp4" type="video/mp4">
+      <source src="{{ '/videos/robot_plate.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
@@ -118,7 +118,7 @@ permalink: /projects/
   <!-- 右边视频或模型展示，固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="/videos/Geodesc.mp4" type="video/mp4">
+      <source src="{{ '/videos/Geodesc.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
