@@ -6,10 +6,18 @@ permalink: /projects/
 
 ## 🎓 MSc Projects {#msc}
 
-### 🛸 Object Detection
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/Object_detection" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🛸 Object Detection
+  </a>
+</h3>
+
+<!-- 技术栈 -->
+<p style="font-size: 0.9rem; color: #777; margin-top: 0; margin-bottom: 0.5rem;">
+  <strong>Tech:</strong> Python · ROS2 · LiDAR · Depth Camera · Gazebo · RViz
+</p>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
-
   <!-- 左边文字 -->
   <div style="flex: 1; min-width: 280px;">
     <ul style="margin-top: 0;">
@@ -18,7 +26,7 @@ permalink: /projects/
       <li>Simulated in Gazebo, visualization in RViz</li>
     </ul>
   </div>
-
+  
   <!-- 右边视频，改为固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
@@ -30,7 +38,11 @@ permalink: /projects/
 </div>
 
 
-### 🛸 UAV Pose Estimation
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/PID_Controller" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🛸 UAV Pose Estimation
+  </a>
+</h3>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -52,7 +64,11 @@ permalink: /projects/
 
 </div>
 
-### 🧭 A* Path Planning Algorithm
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🧭 A* Path Planning Algorithm
+  </a>
+</h3>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -75,7 +91,11 @@ permalink: /projects/
 
 </div>
 
-### 🛠️ Sensor-Mounting Robot Platform (Fusion 3D Design)
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🛠️ Sensor-Mounting Robot Platform (Fusion 3D Design)
+  </a>
+</h3>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -103,7 +123,11 @@ permalink: /projects/
 
 ## 🎓 BSc Projects {#bsc}
 
-### 🧬 UAV Image Matching with Deep Learning
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🧬 UAV Image Matching with Deep Learning
+  </a>
+</h3>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -124,5 +148,11 @@ permalink: /projects/
   </div>
 
 </div>
-### 🧠 Face Recognition with OpenCV
+
+<h3 style="margin-bottom: 0.5rem;">
+  <a href="https://github.com/Elias-819/LBPH" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+    🧠 Face Recognition with OpenCV
+  </a>
+</h3>
+
 - Camera-based LBPH implementation
