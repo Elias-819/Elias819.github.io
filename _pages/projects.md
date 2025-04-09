@@ -162,7 +162,7 @@ permalink: /projects/
   <!-- 右边视频或模型展示，固定宽度 -->
   <div style="flex: 0 0 320px; margin-left: 20px;">
     <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
-      <source src="{{ '/videos/facerecognitiuoin.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/videos/face.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
