@@ -12,10 +12,6 @@ permalink: /projects/
   </a>
 </h3>
 
-<!-- 技术栈 -->
-<p style="font-size: 0.9rem; color: #777; margin-top: 0; margin-bottom: 0.5rem;">
-  <strong>Tech:</strong> Python · ROS2 · LiDAR · Depth Camera · Gazebo · RViz
-</p>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
   <!-- 左边文字 -->
@@ -65,7 +61,7 @@ permalink: /projects/
 </div>
 
 <h3 style="margin-bottom: 0.5rem;">
-  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+  <a href="https://github.com/Elias-819/A_star" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
     🧭 A* Path Planning Algorithm
   </a>
 </h3>
@@ -92,7 +88,7 @@ permalink: /projects/
 </div>
 
 <h3 style="margin-bottom: 0.5rem;">
-  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+  <a href="https://a360.co/3FOjy8e" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
     🛠️ Sensor-Mounting Robot Platform (Fusion 3D Design)
   </a>
 </h3>
@@ -124,7 +120,7 @@ permalink: /projects/
 ## 🎓 BSc Projects {#bsc}
 
 <h3 style="margin-bottom: 0.5rem;">
-  <a href="https://github.com/Elias-819/Object-Detection-Robot" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
+  <a href="https://github.com/Elias-819/Geodesc" target="_blank" style="color: #333; text-decoration: none;" onmouseover="this.style.color='#007bff'" onmouseout="this.style.color='#333'">
     🧬 UAV Image Matching with Deep Learning
   </a>
 </h3>
@@ -154,5 +150,21 @@ permalink: /projects/
     🧠 Face Recognition with OpenCV
   </a>
 </h3>
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-- Camera-based LBPH implementation
+  <!-- 左边文字 -->
+  <div style="flex: 1; min-width: 280px;">
+    <ul style="margin-top: 0;">
+      <li>Camera-based LBPH implementation</li>
+    </ul>
+  </div>
+
+  <!-- 右边视频或模型展示，固定宽度 -->
+  <div style="flex: 0 0 320px; margin-left: 20px;">
+    <video autoplay loop muted playsinline controls style="width: 100%; border-radius: 10px;">
+      <source src="{{ '/videos/facerecognitiuoin.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</div>
