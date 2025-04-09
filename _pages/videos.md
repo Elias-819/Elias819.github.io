@@ -46,7 +46,7 @@ permalink: /videos/
   </p>
   <div style="display: flex; justify-content: center; margin-top: 10px;">
     <video autoplay loop muted playsinline controls style="width: 80%; max-width: 960px; border-radius: 10px;">
-      <source src="{{ '/videos/EEEN62011Coursework2.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/videos/Eeen62011Coursework2.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
